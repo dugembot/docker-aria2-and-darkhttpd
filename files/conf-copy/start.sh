@@ -6,4 +6,4 @@
 
 touch /app/aria2.session
 
-aria2c --conf-path=/app/aria2.conf&
+aria2c --conf-path=/app/aria2.conf
