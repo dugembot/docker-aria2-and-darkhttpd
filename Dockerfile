@@ -10,6 +10,9 @@ RUN apk update \
     && apk add --no-cache --update bash aria2 \
     && chmod +x /app/start.sh
 
+ADD https://github.com/P3TERX/aria2.conf/raw/master/dht.dat \
+    https://github.com/P3TERX/aria2.conf/raw/master/dht6.dat
+
 EXPOSE 6800 6881 6881/udp 
 
 CMD ["bash","start.sh"]
