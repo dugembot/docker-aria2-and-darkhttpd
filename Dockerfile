@@ -15,4 +15,4 @@ ADD https://github.com/P3TERX/aria2.conf/raw/master/dht.dat \
 
 EXPOSE 6800 6881 6881/udp 
 
-CMD ["bash","start.sh"]
+CMD ["bash","/app/start.sh"]
