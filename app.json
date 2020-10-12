@@ -7,7 +7,7 @@
   "stack": "container",
   "env": [
       "SECRET": "Kacang123"
-  ]
+  ],
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-static"
