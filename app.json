@@ -5,9 +5,12 @@
   "repository": "https://github.com/ziahamza/webui-aria2",
   "keywords": ["AngularJS", "aria2", "static"],
   "stack": "container",
-  "env": [
-      "SECRET": "Kacang123"
-  ],
+  "env": {
+    "SECRET": {
+      "description": "A secret key for verifying the integrity of aria.",
+      "value": "Kacang123"
+    }
+  }
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-static"
