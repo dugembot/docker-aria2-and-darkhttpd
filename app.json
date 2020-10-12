@@ -10,7 +10,7 @@
       "description": "A secret key for verifying the integrity of aria.",
       "value": "Kacang123"
     }
-  }
+  },
   "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-static"
